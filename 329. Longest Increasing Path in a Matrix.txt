@@ -84,3 +84,58 @@ public class Solution {
         return global;
     }
 }
+
+// I'd say try this
+  public static int lip(int[,] matrix)
+        {
+            if (matrix == null) return max;
+            int[,] dfsResults = new int[matrix.GetLength(0), matrix.GetLength(1)];
+
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if (dfsResults[i, j] == 0)
+                        DFS(matrix, dfsResults, i, j);
+
+                    max = Math.Max(max, dfsResults[i,j]);
+                }
+            }         
+            
+            return max;
+        }
+
+        public static int DFS(int[,] matrix, int[,] dfsResults, int row, int col)
+        {
+            //set default
+            dfsResults[row, col] = 1;
+            Test.PrintMatrix(dfsResults);
+
+            for (int i = 0; i < directions.GetLength(0); i++)
+            {
+                int newRow = row + directions[i, 0];
+                int newCol = col + directions[i, 1];
+
+                //check for bounds row
+                if (newRow < 0 || newRow > matrix.GetLength(0) - 1) continue;
+                //check for bounds column
+                if (newCol < 0 || newCol > matrix.GetLength(1) - 1) continue;
+
+                if (matrix[row, col] >= matrix[newRow, newCol]) continue;
+
+                if (dfsResults[newRow, newCol] != 0)
+                {
+                    dfsResults[row, col] = Math.Max(dfsResults[row, col], 1 + dfsResults[ newRow, newCol]);
+                    Test.PrintMatrix(dfsResults);
+                }
+                else
+                {
+                    dfsResults[row, col] = Math.Max(dfsResults[row, col], 1 + DFS(matrix, dfsResults, newRow, newCol));
+                    Test.PrintMatrix(dfsResults);
+                }
+
+                
+            }
+
+            return dfsResults[row, col];
+        }
