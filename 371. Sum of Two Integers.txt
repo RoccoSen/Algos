@@ -1,0 +1,45 @@
+Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+
+Example 1:
+
+Input: a = 1, b = 2
+Output: 3
+Example 2:
+
+Input: a = -2, b = 3
+Output: 1
+
+
+public class Solution {
+    public int GetSum(int a, int b) {
+        if (a == 0) return b;
+        if (b == 0) return a;
+
+        int carry = 0;
+        while(b != 0)
+        {
+            // Figure out what we have to carry to the next loop, times it by 2 (times it by 10 in homo sapien number system)
+            //  11
+            // 101
+            // 001, we have to carry 2, remember 1+1 is 2. The turning into 2 part is done in the final step ( b = carry << 1;)
+            carry = a & b;  
+
+            // if we have nothing to carry, then xor will perform an addition
+            // 5 + 10 = 15
+            //   101     5
+            //  1010    10
+            //  1111  = 15
+            a = a ^ b;
+
+            b = carry << 1;
+
+            //basically add and carry
+            //add and carry
+            //until nothing left
+
+            Console.WriteLine(a + b);
+        }
+
+        return a;
+    }
+}
