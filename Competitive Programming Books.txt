@@ -1,0 +1,5 @@
+Try these books
+
+1) Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) 
+2) Competitive Programming, 3rd Edition
+3) Algorithmic Puzzles 1st Edition
