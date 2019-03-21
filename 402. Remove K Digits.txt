@@ -1,70 +1,8 @@
-Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+Whenever meet a digit which is less than the previous digit, remove the previous one.
+Best data structure: stack
 
-Note:
-The length of num is less than 10002 and will be ≥ k.
-The given num does not contain any leading zero.
-Example 1:
+After removing k digits, leading digit might be zero, so we have to make sure to remove those before returning.
 
-Input: num = "1432219", k = 3
-Output: "1219"
-Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
-Example 2:
-
-Input: num = "10200", k = 1
-Output: "200"
-Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
-Example 3:
-
-Input: num = "10", k = 2
-Output: "0"
-Explanation: Remove all the digits from the number and it is left with nothing which is 0.
-
-public class Solution {
-    public string RemoveKdigits(string num, int k) {
-      int len = num.Length;
-
-        //corner case
-        if (k == len)
-            return "0";
-
-        Stack<char> stack = new Stack<char>();
-        int i = 0;
-        while (i < num.Length)
-        {
-            //whenever meet a digit which is less than the previous digit, discard the previous one
-            while (k > 0 && stack.Count != 0 && stack.Peek() > num[i])
-            {
-                stack.Pop();
-                k--;
-            }
-            stack.Push(num[i]);
-            i++;
-        }
-
-        // corner case like "1111"
-        while (k > 0)
-        {
-            stack.Pop();
-            k--;
-        }
-
-        //construct the number from the stack
-        StringBuilder sb = new StringBuilder();
-        while (stack.Count != 0)
-            sb.Append(stack.Pop());
-
-        return ReverseAndRemoveZero(sb.ToString());
-    }
-    
-    public string ReverseAndRemoveZero(string s)
-    {
-        if (string.IsNullOrEmpty(s))
-            return s;
-
-        char[] temp = s.ToCharArray();
-        Array.Reverse(temp);
-        string s2 = new string(temp).TrimStart('0');
-        return s2.Length  == 0 ? "0" : s2;
-    }
-    
-}
+Think of corner cases, k == length of array. Then we return zero
+Number = 1111, what to do here? Just remove k 1s (just pop k from stack)
+Number = 123456789, then remove k from the back. They should be in the stack so it's just popking k from stack.
