@@ -1,4 +1,0 @@
-Calculate the distance, then sort it.
-Find the VALUE in the sorted array that is k closet.
-Loop through originial jagged array and return items whos distance is less than VALUE.
-}
