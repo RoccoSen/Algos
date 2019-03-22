@@ -1,8 +1,0 @@
-Whenever meet a digit which is less than the previous digit, remove the previous one.
-Best data structure: stack
-
-After removing k digits, leading digit might be zero, so we have to make sure to remove those before returning.
-
-Think of corner cases, k == length of array. Then we return zero
-Number = 1111, what to do here? Just remove k 1s (just pop k from stack)
-Number = 123456789, then remove k from the back. They should be in the stack so it's just popking k from stack.
