@@ -3,3 +3,15 @@ Try these books
 1) Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) 
 2) Competitive Programming, 3rd Edition
 3) Algorithmic Puzzles 1st Edition
+
+
+
+4, 27, 50, 53, 55, 56, 69, 71, 75, 81 [code], 96 [code], 99
+116, 163, 189, 190, 198,
+336, 371, 394, 
+402, 442, 489, 
+560, 572, 
+628, 647, 663, 680, 681
+722, 750, 
+862, 865, 
+973, 988
