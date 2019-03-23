@@ -5,8 +5,10 @@ Try these books
 3) Algorithmic Puzzles 1st Edition
 
 
+Keep Coding: 4, 5, 10, 29, 81, 96, 
 
-4, 27, 50, 53, 55, 56, 69, 71, 75, 81 [code], 96 [code], 99
+Missed Questions: 
+4, 5, 29, 50, 53, 55, 56, 69, 71, 75, 81, 96, 99
 116, 163, 189, 190, 198,
 336, 371, 394, 
 402, 442, 489, 
@@ -14,4 +16,4 @@ Try these books
 628, 647, 663, 680, 681
 722, 750, 
 862, 865, 
-973, 988
+973, 988 (just because I didn't get the best solution)
