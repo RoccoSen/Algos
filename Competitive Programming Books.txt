@@ -4,6 +4,8 @@ Try these books
 2) Competitive Programming, 3rd Edition
 3) Algorithmic Puzzles 1st Edition
 
+Look into how this works
+https://www.youtube.com/watch?v=sYlOjyPyX3g
 
 Keep Coding: 
 4,5, 10, 29, 30, 31, 32, 34 i don't understand why, 43 code one time, 44 dynamic, 47 one time, 
