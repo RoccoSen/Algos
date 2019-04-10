@@ -24,7 +24,8 @@ Missed Questions:
 
 Keep Coding: 
 3,4,5, 10,23, 29, 30, 31, 32, 34 i don't understand why, 43 code one time, 44 dynamic, 47 one time, 48 for [][]
-50, 68, 74, 76, 80, 81, 85 (stack with weird logic), 89, 94, 95, 96 
+50, 68, 74, 76, 80, 81, 85 (stack with weird logic), 89, 94, 95, 96,
+144
 
 
 Recoded:
