@@ -24,7 +24,7 @@ Note:
 -10 ^ 5 <= A[i] <= 10 ^ 5
 1 <= K <= 10 ^ 9
 
-
+Increating order Dequeue by index
 
 
 public class Solution {
