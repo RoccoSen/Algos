@@ -32,3 +32,4 @@ Recoded:
 2 -> Got done super fast
 3 -> Got it done. Messed up little on map[start]. Should have been map[s[start]]. S being the string.
 5 -> Coded without any issue
+8 -> Was pretty tired (no carbs) so made mistakes but the structure of algo was solid. Fixing the errors were easy.
