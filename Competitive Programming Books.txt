@@ -34,3 +34,10 @@ Recoded:
   5 -> Coded without any issue
   8 -> Was pretty tired (no carbs) so made mistakes but the structure of algo was solid. Fixing the errors were easy.
  10 -> Made some erros with variables ect. This is due to not having intellisense ect. The logic of program was right.
+ 23 ->
+ 42 ->
+ 48 ->
+ 49 ->
+ 73 ->
+ 78 ->
+ 89 ->
