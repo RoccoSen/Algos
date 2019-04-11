@@ -35,7 +35,7 @@ Recoded:
   8 -> Was pretty tired (no carbs) so made mistakes but the structure of algo was solid. Fixing the errors were easy.
  10 -> Made some erros with variables ect. This is due to not having intellisense ect. The logic of program was right.
  23 -> Again small bugs due to not having a compiler. Logic was solid. Got to pay more attention to detail and be perfect.
- 42 ->
+ 42 -> Again small bugs, Like Math.Min instead of Math.Max. Solid logic. Ones idiotic bugs done, it was solid.
  48 ->
  49 ->
  73 ->
