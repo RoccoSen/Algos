@@ -35,9 +35,40 @@ Recoded:
   8 -> Was pretty tired (no carbs) so made mistakes but the structure of algo was solid. Fixing the errors were easy.
  10 -> Made some erros with variables ect. This is due to not having intellisense ect. The logic of program was right.
  23 -> Again small bugs due to not having a compiler. Logic was solid. Got to pay more attention to detail and be perfect.
+ 29 -> [FAIL - do this without long]
+ 30 -> Had a hard time coding this. Also time limit as well. 
+       I was coding aimlessly. Got to really think in these problems. 
+       Hint: if at some point, we will have more words[] * words[0].Length than s.Length
+ 31 -> I had the algorithm wrongly memorized.
+       It is finding where nums[i] < nums[i+]
+       Then swapping with whatever is the least value in the array that is > nums[i].
+       Easiest way to do this is to start from end of array and check one by one. If that number is > nums[i], swap, break;
+       Then reverse anything that is i+1
+ 32 ->
+ 34 ->    
  42 -> Again small bugs, Like Math.Min instead of Math.Max. Solid logic. Ones idiotic bugs done, it was solid.
+ 43 ->
+ 44 ->
+ 46 -> Did this line in 1 min
+ 47 -> Couldn't do it. Had to look up the solution.
+       Example: [1,1,2]
+       Trick is: if(i > 0 && nums[i] == nums[i - 1] && !used[i - 1])  continue; 
+       If we have [T,F...... and we want to set the F to T, we good
+       If we have  [F,F...... and we want to set the second F to T, no good. That permutation was already formed before.
  48 -> [X] Knew the solution for it but had a little difficulty in implementing it. Had the loop wrong, so had to do console.writeline
- 49 ->
+ 49 -> Was super easy, got this done without any issue
+ 50
+ 68
  73 ->
+ 74
+ 76
  78 ->
+ 80
+ 81
+ 85 (stack with weird logic)
+ 89 
  89 ->
+ 94 Had a hard time but I'm super tired too.
+ 95
+ 96
+ 98 ->  Easy, did this to boost my confidence after failure.
