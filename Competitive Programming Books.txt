@@ -12,7 +12,9 @@ Missed Questions:
 5, 29, 
 31[x], 
 33 = I keep forgetting this Always remember to check left < mid or mid < right on the first if.
-40[x], 50, 53, 55, 56, 69, 71, 75, 81, 89, 96, 99
+40[x], 
+50 = Keep doing until I know it. Solution is super easy, 
+53, 55, 56, 69, 71, 75, 81, 89, 96, 99
 116, 163, 189, 190, 198,
 336, 371, 394, 
 402, 442, 489, 
