@@ -62,7 +62,7 @@ Recoded:
        If we have  [F,F...... and we want to set the second F to T, no good. That permutation was already formed before.
  48 -> [X] Knew the solution for it but had a little difficulty in implementing it. Had the loop wrong, so had to do console.writeline
  49 -> Was super easy, got this done without any issue
- 50
+ 50 -> Found out how to do this. I say code again
  68
  73 ->
  74
