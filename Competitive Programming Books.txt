@@ -11,7 +11,7 @@ Missed Questions:
 4[x], 
 5, 29, 
 31[x], 
-33
+33 = I keep forgetting this Always remember to check left < mid or mid < right on the first if.
 40[x], 50, 53, 55, 56, 69, 71, 75, 81, 89, 96, 99
 116, 163, 189, 190, 198,
 336, 371, 394, 
@@ -47,6 +47,7 @@ Recoded:
        Easiest way to do this is to start from end of array and check one by one. If that number is > nums[i], swap, break;
        Then reverse anything that is i+1
  32 ->
+ 33 -> Easy to code after understanding problem.
  34 ->    
  42 -> Again small bugs, Like Math.Min instead of Math.Max. Solid logic. Ones idiotic bugs done, it was solid.
  43 ->
