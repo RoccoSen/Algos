@@ -50,7 +50,7 @@ Recoded:
  33 -> Easy to code after understanding problem.
  34 ->    
  42 -> Again small bugs, Like Math.Min instead of Math.Max. Solid logic. Ones idiotic bugs done, it was solid.
- 43 ->
+ 43 -> Failry straight forward to code. Make sure to grab the right number from the already computed result.
  44 ->
  46 -> Did this line in 1 min
  47 -> Couldn't do it. Had to look up the solution.
