@@ -68,6 +68,7 @@ Recoded:
  74
  76 -> Tough to code but I got it. Had to understand the algo really well.
  78 -> Too easy
+ 79 -> Forgot to check for bounds. Also time limit exeeded because of the way I coded. When the solution is found, stop checking
  80
  81
  85 (stack with weird logic)
