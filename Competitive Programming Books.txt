@@ -66,7 +66,7 @@ Recoded:
  68
  73 ->
  74
- 76
+ 76 -> Tough to code but I got it. Had to understand the algo really well.
  78 ->
  80
  81
