@@ -8,8 +8,8 @@ Look into how this works
 https://www.youtube.com/watch?v=sYlOjyPyX3g
 
 Missed Questions: 
-4[x], 
-5, 29, 
+4[FB], 
+29[FB], 
 31[x], 
 33 = I keep forgetting this Always remember to check left < mid or mid < right on the first if.
 40[x], 
