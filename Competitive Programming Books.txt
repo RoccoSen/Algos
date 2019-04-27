@@ -17,7 +17,7 @@ Missed Questions:
 53, 55, 56,
 68 [FB]
 ,69, 71, 75, 81, 89, 96, 99
-139 [FB],
+139 = Have to do a contains and sub strings,
 153 [FB],
 163, 189, 190, 198,
 336, 371, 394, 
