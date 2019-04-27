@@ -18,6 +18,10 @@ Missed Questions:
 68 [FB]
 ,69, 71, 75, 81, 89, 96, 99
 116 & 117 [FB], 
+124 [FB],
+137 [FB],
+139 [FB],
+153 [FB],
 163, 189, 190, 198,
 336, 371, 394, 
 402, 442, 489, 
@@ -36,6 +40,7 @@ Keep Coding:
 
 Recoded:
   2 -> Got done super fast
+  4 ->
   3 -> Got it done. Messed up little on map[start]. Should have been map[s[start]]. S being the string.
   5 -> Coded without any issue
   8 -> Was pretty tired (no carbs) so made mistakes but the structure of algo was solid. Fixing the errors were easy.
@@ -81,4 +86,5 @@ Recoded:
  94 Had a hard time but I'm super tired too.
  95
  96
- 98 ->  Easy, did this to boost my confidence after failure.
+ 98 -> Easy, did this to boost my confidence after failure.
+117 -> Super easy
