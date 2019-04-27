@@ -88,3 +88,4 @@ Recoded:
  96
  98 -> Easy, did this to boost my confidence after failure.
 117 -> Super easy
+124 -> Tiny mistake on my logic but otherwise easy to code
