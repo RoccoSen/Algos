@@ -20,6 +20,8 @@ Missed Questions:
 139 = Have to do a contains and sub strings,
 153 [FB] good one i didnt get,
 163, 189, 190, 198,
+https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
+201 FB 
 336, 371, 394, 
 402, 442, 489, 
 560, 572, 
