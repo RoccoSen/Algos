@@ -40,7 +40,19 @@ So if EVEN && N[i-1] > N[i]
 Based on even or odd, we have to check greater than or less than previous value.
 
 282 FB
+
 287 FB
+//l     M     r
+//0  1  2  3  4
+//1, 3, 4, 2, 2
+// Take index 2 as mid and see how many numbers are below <= 2. Answer is 3
+//          Therefore, set right to mid because 3 > 2.
+//l  M  r      
+//0  1  2  3  4
+//  How many numbers below 1. Answer is 2. 2 is not > 2, so set left to Mid + 1
+//  Loop exists, we return 2
+//  Basically we are doing a quick sort like algo. Pick a pivot and see how many numbers are smaller
+
 296 FB Got answer but code again
 301 FB
 303 FB
