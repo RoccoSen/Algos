@@ -55,7 +55,7 @@ Based on even or odd, we have to check greater than or less than previous value.
 
 296 FB Got answer but code again
 301 FB
-303 FB
+303 FB [DONE]
 314 FB [DONE]
 
 336, 371, 394, 
