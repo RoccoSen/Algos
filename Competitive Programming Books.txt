@@ -61,6 +61,7 @@ Based on even or odd, we have to check greater than or less than previous value.
 336, 371, 394, 
 402, 442, 489, 
 560, 572, 
+621 [FB]
 628, 647, 663, 680, 681
 722, 750, 
 862, 865, 
