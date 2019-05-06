@@ -1,0 +1,19 @@
+Twitter:
+http://highscalability.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html
+
+Twitter creates approximately 3,000 unique images and transfers approximately 200 GB of images per second
+
+Lessons Learned:
+The simple method of uploading a tweet with an image as an all or nothing operation was a form of lock-in. It didn’t scale well, especially on poor networks, which made it difficult for Twitter to add new features.
+
+By decoupling media upload from tweeting Twitter was able independently optimize each pathway and gain a lot of operational flexibility. 
+
+Don’t move big chunks of data through your system. It eats bandwidth and causes performance problems for every service that has to touch the data. Instead, store the data and refer to it with a handle.
+
+Moving to segmented resumable uploads resulted in big decreases in media upload failure rates.
+
+Experiment and research. Twitter found through research that a 20 day TTL (time to live) on image variants (thumbnails, small, large, etc) was a sweet spot, a good balance between storage and computation. Images had a low probability of being accessed after 20 days so they could be deleted, which saves nearly 4TB of data storage per day, almost halves the number of compute servers needed, and saves millions of dollars a year.
+
+Progressive JPEG is a real winner as a standard image format. It has great frontend and backend support and performs very well on slower networks.
+What is a progressive JPEG?
+A progressive JPEG is an image created using compression algorithms that load the image in successive waves until the entire image is downloaded. This makes the image appear to load faster, as it loads the whole image in progressive waves. A normal JPEG loads the image from the top to bottom line by line.
