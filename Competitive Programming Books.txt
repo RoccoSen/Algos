@@ -39,6 +39,8 @@ So if EVEN && N[i-1] > N[i]
 
 Based on even or odd, we have to check greater than or less than previous value.
 
+100 Hards ***
+146	LRU Cache    
 200 Hards ***
 224  Basic Calculator    
 273  Integer to English Words    
