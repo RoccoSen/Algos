@@ -104,3 +104,4 @@ Recoded:
 117 -> Super easy
 124 -> Tiny mistake on my logic but otherwise easy to code
 131 -> Fucked it up. For aab, we check [a][a][b] - [a][ab]. I didn't grap the [a][ab] part.
+133 -> Recoded, slight type gave wrong results. Overall logic was solid.
