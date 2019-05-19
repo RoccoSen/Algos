@@ -19,23 +19,9 @@ Missed Questions:
 ,69, 71, 75, 81, 89, 96, 99
 139 = Have to do a contains and sub strings,
 153 [FB] good one i didnt get,
+162 i knoew binary search but should look at it more
 163, 189, 190, 198,
-https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
-201 FB 
-218 FB
-224 FB - Basic Calculator - look at code
-269 FB
-280 FB
-S = Small
-B = Big
-O = odd
-E = Even
-[S][B][S][B][S][B][S]
-[E][O][E][O][E][O][E]
-So if EVEN && N[i-1] > N[i] 
-      swap
-   if ODD && N[i-1] < N[i]
-      swap
+
 
 Based on even or odd, we have to check greater than or less than previous value.
 
