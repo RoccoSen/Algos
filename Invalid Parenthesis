@@ -1,0 +1,67 @@
+Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
+
+Note: The input string may contain letters other than the parentheses ( and ).
+
+Example 1:
+
+Input: "()())()"
+Output: ["()()()", "(())()"]
+Example 2:
+
+Input: "(a)())()"
+Output: ["(a)()()", "(a())()"]
+Example 3:
+
+Input: ")("
+Output: [""]
+
+https://leetcode.com/problems/remove-invalid-parentheses/
+  
+      static void Main(string[] args)
+        {
+            string input = "()())()";
+            RemoveInvalidParentheses(input);
+            Console.ReadLine();
+        }
+
+        public static IList<string> RemoveInvalidParentheses(string s)
+        {
+            HashSet<string> values = new HashSet<string>();
+            Helper(s, '(', ')', values);
+            return values.ToList();
+        }
+
+        public static void Helper(string s, char a, char b, HashSet<string> values)
+        {
+            int counter = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] == a) counter++;
+                if (s[i] == b) counter--;
+                if (counter >= 0) continue;
+
+                for (int j = 0; j <= i; j++)
+                {
+                    if (s[j] == b)
+                        Helper(s.Substring(0, j) + s.Substring(j + 1), a, b, values);
+                }
+
+                return;
+            }
+
+            // Now reverse it and send the again. Bythis time, we have removed the bad ')'
+            // For this case ")(" -> Remove ( and try again 
+            char[] temp = s.ToArray();
+            Array.Reverse(temp);
+            s = new string(temp);
+
+            if (a == '(')
+            {
+                Helper(s, b, a, values);
+            }
+            else
+            {
+                if (!values.Contains(s))
+                    values.Add(s);
+            }
+        }
