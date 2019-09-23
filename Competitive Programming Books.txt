@@ -1,3 +1,39 @@
+**********************************
+Game Plan
+**********************************
+
+Glue
+https://app.pluralsight.com/library/courses/serverless-analytics-aws/table-of-contents
+
+IAM
+	https://app.pluralsight.com/paths/skills/identity-and-access-management-on-aws
+	Four courses to take:
+		https://app.pluralsight.com/library/courses/identity-access-management-aws-users/table-of-contents
+		https://app.pluralsight.com/library/courses/identity-access-management-aws-roles-groups/table-of-contents
+		https://app.pluralsight.com/library/courses/identity-access-management-aws-policies-permissions/table-of-contents
+		https://app.pluralsight.com/library/courses/identity-access-management-aws-designing-implementing/table-of-contents
+		
+S3
+
+
+Athena
+	This course has Glue as well
+	https://app.pluralsight.com/library/courses/amazon-athena-advanced-operations/table-of-contents
+
+	
+DynamoDB
+	https://app.pluralsight.com/library/courses/aws-dynamodb-fundamentals/table-of-contents
+	https://app.pluralsight.com/library/courses/aws-dynamodb-deep-dive-2019/table-of-contents
+	
+Sagemaker
+	https://app.pluralsight.com/library/courses/tensorflow-apache-mxnet-aws-sagemaker-deep-learning/table-of-contents
+
+Spark
+	https://app.pluralsight.com/library/courses/apache-spark-fundamentals/table-of-contents
+	https://app.pluralsight.com/library/courses/apache-spark-beginning-data-exploration-analysis/table-of-contents
+  
+
+
 Try these books
 
 1) Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) 
